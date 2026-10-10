@@ -1,31 +1,33 @@
 # FORT 96 — Feedback
 
-**HOLD THE FORT.** FORT 96 é um roguelite de horda: você é o Engenheiro, segurando o forte contra o que sai do Slipgate, onda após onda.
+**HOLD THE FORT.** FORT 96 is a horde roguelite: you are the Engineer, holding the fort against whatever comes out of the Slipgate, wave after wave.
 
-Este repositório é o **canal público de feedback** do jogo: bugs, sugestões e balanceamento. Ele **não contém código** do jogo.
+This repository is the game's **public feedback tracker**: bugs, suggestions and balance. It contains **no game code**.
 
-## Como relatar
-- **Discord:** canais `#bugs` e `#sugestões` (o bot abre a issue aqui e te responde com o link).
-- **Aqui no GitHub:** [abra uma issue](../../issues/new/choose) usando um dos modelos (Bug, Sugestão, Balanceamento).
+> Português? Pode abrir em português.
 
-Antes de relatar, veja se já existe uma issue parecida e dê 👍 nela em vez de abrir outra.
+## How to report
+- **Discord:** `#bugs` and `#suggestions` channels (the bot opens the issue here and replies with the link).
+- **Here on GitHub:** [open an issue](../../issues/new/choose) using one of the templates (Bug, Suggestion, Balance).
+
+Before reporting, check whether a similar issue already exists and give it a 👍 instead of opening a new one.
 
 ## Links
-- Jogo: https://defesatotal.netlify.app (em breve: fort96.com)
-- Wiki (cartas, armas, chefes): https://defesatotal.netlify.app/wiki/
-- Bugs conhecidos: https://defesatotal.netlify.app/bugs/
+- Game: https://defesatotal.netlify.app (coming soon: fort96.com)
+- Wiki (cards, weapons, bosses): https://defesatotal.netlify.app/wiki/
+- Known bugs: https://defesatotal.netlify.app/bugs/
 - Discord: https://discord.gg/N3jTQzvP7d
 
-## Gravidade
-| Label | Significado |
+## Severity
+| Label | Meaning |
 |---|---|
-| `P0` | Trava, crasha ou perde run/ranking |
-| `P1` | Quebra mecânica sem contorno |
-| `P2` | Errado, mas jogável |
-| `P3` | Cosmético |
+| `P0` | Freeze, crash, or lost run/ranking |
+| `P1` | Broken mechanic with no workaround |
+| `P2` | Wrong, but playable |
+| `P3` | Cosmetic |
 
-## Quadro
-O quadro **FORT 96 - Roadmap** acompanha cada item: **Triagem → Confirmado → Fazendo → Feito**. Sugestões mais votadas (👍) sobem na prioridade. Quando um bug é corrigido, a issue é fechada e quem relatou é avisado no Discord.
+## Board
+The **FORT 96 - Roadmap** board tracks every item: **Triage → Confirmed → In progress → Done**. The most upvoted (👍) suggestions move up in priority. When a bug is fixed, the issue is closed and the reporter is notified on Discord.
 
-## Privacidade
-Issues abertas pelo bot não trazem nick do Discord nem o texto completo do jogador, só um resumo do problema.
+## Privacy
+Issues opened by the bot never include Discord nicknames or the player's full text, only a summary of the problem.

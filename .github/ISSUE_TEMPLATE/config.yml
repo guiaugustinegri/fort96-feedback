@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Wiki do FORT 96
+    url: https://defesatotal.netlify.app/wiki/
+    about: Como funcionam cartas, armas e chefes
+  - name: 🐞 Bugs conhecidos
+    url: https://defesatotal.netlify.app/bugs/
+    about: Veja se o bug já está na lista

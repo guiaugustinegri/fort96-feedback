@@ -1,22 +1,22 @@
-name: 💡 Sugestão
-description: Ideia de feature ou melhoria
-title: "[Sugestão] "
-labels: ["tipo:sugestao", "status:triagem"]
+name: 💡 Suggestion
+description: Feature idea or improvement
+title: "[Suggestion] "
+labels: ["type:suggestion", "status:triage"]
 body:
   - type: markdown
     attributes:
-      value: "Procure antes se a ideia já existe e dê 👍 nela, isso ajuda a priorizar."
+      value: "Search first: if the idea already exists, give it a 👍, that helps prioritize. Português? Pode abrir em português."
   - type: textarea
-    id: ideia
+    id: idea
     attributes:
-      label: Qual é a ideia
+      label: What's the idea
     validations:
       required: true
   - type: textarea
-    id: porque
+    id: why
     attributes:
-      label: Por que deixaria o jogo melhor
+      label: Why would it make the game better
   - type: textarea
-    id: extra
+    id: refs
     attributes:
-      label: Referências (outros jogos, imagens)
+      label: References (other games, images)

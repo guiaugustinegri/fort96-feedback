@@ -1,48 +1,48 @@
 name: 🐞 Bug
-description: Algo não funciona como deveria
+description: Something isn't working as it should
 title: "[Bug] "
-labels: ["tipo:bug", "status:triagem"]
+labels: ["type:bug", "status:triage"]
 body:
   - type: markdown
     attributes:
-      value: "Obrigado! Confira antes a [wiki](https://defesatotal.netlify.app/wiki/) e os [bugs conhecidos](https://defesatotal.netlify.app/bugs/)."
+      value: "Thanks! Please check the [wiki](https://defesatotal.netlify.app/wiki/) and [known bugs](https://defesatotal.netlify.app/bugs/) first. Português? Pode abrir em português."
   - type: input
-    id: versao
+    id: version
     attributes:
-      label: Versão / build
-      description: Aparece no menu do jogo
+      label: Version / build
+      description: Shown in the game menu
   - type: input
-    id: aparelho
+    id: device
     attributes:
-      label: Aparelho e navegador
-      placeholder: "Ex.: PC Windows + Chrome, iPhone 13 + Safari"
+      label: Device and browser
+      placeholder: "e.g. Windows PC + Chrome, iPhone 13 + Safari"
     validations:
       required: true
   - type: input
-    id: mapa
+    id: map
     attributes:
-      label: Mapa
+      label: Map
   - type: input
-    id: onda
+    id: wave
     attributes:
-      label: Onda
+      label: Wave
   - type: input
-    id: arma
+    id: weapon
     attributes:
-      label: Arma / carta em uso
+      label: Weapon / card in use
   - type: textarea
-    id: aconteceu
+    id: what
     attributes:
-      label: O que aconteceu
-      description: Passo a passo, se possível
+      label: What happened
+      description: Steps to reproduce, if possible
     validations:
       required: true
   - type: textarea
-    id: esperado
+    id: expected
     attributes:
-      label: O que era esperado
+      label: What did you expect
   - type: textarea
-    id: print
+    id: screenshot
     attributes:
-      label: Print ou vídeo
-      description: Arraste a imagem aqui
+      label: Screenshot or video
+      description: Drag the file here

@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 📖 Wiki do FORT 96
+  - name: 📖 FORT 96 Wiki
     url: https://defesatotal.netlify.app/wiki/
-    about: Como funcionam cartas, armas e chefes
-  - name: 🐞 Bugs conhecidos
+    about: How cards, weapons and bosses work
+  - name: 🐞 Known bugs
     url: https://defesatotal.netlify.app/bugs/
-    about: Veja se o bug já está na lista
-  - name: 💬 Discord do FORT 96
+    about: Check whether the bug is already listed
+  - name: 💬 FORT 96 Discord
     url: https://discord.gg/N3jTQzvP7d
-    about: Relate em #bugs ou #sugestões e converse com a comunidade
+    about: Report in #bugs or #suggestions and chat with the community

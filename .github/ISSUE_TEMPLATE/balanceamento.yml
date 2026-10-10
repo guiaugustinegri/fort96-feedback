@@ -1,29 +1,32 @@
-name: ⚖️ Balanceamento
-description: Algo está fácil ou difícil demais
-title: "[Balanceamento] "
-labels: ["tipo:balanceamento", "status:triagem"]
+name: ⚖️ Balance
+description: Something is too easy or too hard
+title: "[Balance] "
+labels: ["type:balance", "status:triage"]
 body:
-  - type: input
-    id: oque
+  - type: markdown
     attributes:
-      label: O que está desbalanceado
-      placeholder: "Ex.: chefe da onda 10, carta X, sentinela nível 3"
+      value: "Português? Pode abrir em português."
+  - type: input
+    id: what
+    attributes:
+      label: What is unbalanced
+      placeholder: "e.g. wave 10 boss, card X, level 3 sentry"
     validations:
       required: true
   - type: dropdown
-    id: direcao
+    id: direction
     attributes:
-      label: Está...
+      label: It is...
       options:
-        - Forte / fácil demais
-        - Fraco / difícil demais
+        - Too strong / too easy
+        - Too weak / too hard
     validations:
       required: true
   - type: input
-    id: contexto
+    id: context
     attributes:
-      label: Mapa, onda e build
+      label: Map, wave and build
   - type: textarea
-    id: detalhes
+    id: details
     attributes:
-      label: Detalhes e sugestão de ajuste
+      label: Details and suggested tweak

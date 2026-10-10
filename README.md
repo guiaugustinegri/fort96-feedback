@@ -14,7 +14,7 @@ Antes de relatar, veja se já existe uma issue parecida e dê 👍 nela em vez d
 - Jogo: https://defesatotal.netlify.app (em breve: fort96.com)
 - Wiki (cartas, armas, chefes): https://defesatotal.netlify.app/wiki/
 - Bugs conhecidos: https://defesatotal.netlify.app/bugs/
-- Discord: _convite em breve_
+- Discord: https://discord.gg/N3jTQzvP7d
 
 ## Gravidade
 | Label | Significado |

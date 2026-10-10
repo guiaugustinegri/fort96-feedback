@@ -1,0 +1,29 @@
+name: ⚖️ Balanceamento
+description: Algo está fácil ou difícil demais
+title: "[Balanceamento] "
+labels: ["tipo:balanceamento", "status:triagem"]
+body:
+  - type: input
+    id: oque
+    attributes:
+      label: O que está desbalanceado
+      placeholder: "Ex.: chefe da onda 10, carta X, sentinela nível 3"
+    validations:
+      required: true
+  - type: dropdown
+    id: direcao
+    attributes:
+      label: Está...
+      options:
+        - Forte / fácil demais
+        - Fraco / difícil demais
+    validations:
+      required: true
+  - type: input
+    id: contexto
+    attributes:
+      label: Mapa, onda e build
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes e sugestão de ajuste

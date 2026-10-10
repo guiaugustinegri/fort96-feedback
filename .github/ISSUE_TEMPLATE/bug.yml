@@ -1,0 +1,48 @@
+name: 🐞 Bug
+description: Algo não funciona como deveria
+title: "[Bug] "
+labels: ["tipo:bug", "status:triagem"]
+body:
+  - type: markdown
+    attributes:
+      value: "Obrigado! Confira antes a [wiki](https://defesatotal.netlify.app/wiki/) e os [bugs conhecidos](https://defesatotal.netlify.app/bugs/)."
+  - type: input
+    id: versao
+    attributes:
+      label: Versão / build
+      description: Aparece no menu do jogo
+  - type: input
+    id: aparelho
+    attributes:
+      label: Aparelho e navegador
+      placeholder: "Ex.: PC Windows + Chrome, iPhone 13 + Safari"
+    validations:
+      required: true
+  - type: input
+    id: mapa
+    attributes:
+      label: Mapa
+  - type: input
+    id: onda
+    attributes:
+      label: Onda
+  - type: input
+    id: arma
+    attributes:
+      label: Arma / carta em uso
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu
+      description: Passo a passo, se possível
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que era esperado
+  - type: textarea
+    id: print
+    attributes:
+      label: Print ou vídeo
+      description: Arraste a imagem aqui

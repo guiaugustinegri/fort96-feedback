@@ -1,7 +1,7 @@
 name: 💡 Suggestion
 description: Feature idea or improvement
 title: "[Suggestion] "
-labels: ["type:suggestion", "status:triage"]
+labels: ["idea"]
 body:
   - type: markdown
     attributes:

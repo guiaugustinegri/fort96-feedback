@@ -1,7 +1,7 @@
 name: ⚖️ Balance
 description: Something is too easy or too hard
 title: "[Balance] "
-labels: ["type:balance", "status:triage"]
+labels: ["balance"]
 body:
   - type: markdown
     attributes:
